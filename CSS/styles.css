@@ -1,0 +1,13 @@
+/*Selector por id*/
+#eq {
+    color:red;
+}
+
+h3 {
+    color:blueviolet;
+}
+
+/*Selector de clase (a quien yo elija)*/
+.textoVerde {
+    color:rgb(22, 209, 62)
+}

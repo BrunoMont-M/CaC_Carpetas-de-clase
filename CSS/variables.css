@@ -1,0 +1,8 @@
+:root{
+    /*puedo crear variables*/
+    --primary-color: rgb(73, 168, 247);
+    --secondary-color: rgb(29, 29, 53);
+}
+.link{
+    color: var(--primary-color);
+}

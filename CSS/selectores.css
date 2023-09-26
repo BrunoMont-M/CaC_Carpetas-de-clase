@@ -1,0 +1,48 @@
+/*Selector descendiente*/
+div p{
+    color: aqua;
+}
+/*Selector hijo "padre > hijo"*/
+p > strong{
+    color:orangered;
+}
+i > strong{
+    color: rgb(56, 223, 41);
+}
+/*Selector hermano adyacente*/
+h1 + p{
+    color: blue;
+}
+/*Selector hermano adyacente 2*/
+h2 ~ p{
+    color: goldenrod;
+}
+/*Selector por atributo*/
+a[title='google'] {
+    color: pink;
+    text-decoration: overline;
+    font-weight: bold;
+}
+a[href*='face'] {
+    color: rgb(18, 142, 214);
+    text-decoration: underline;
+    font-weight: lighter;
+}
+/*que comience con...*/
+a[href^='https://www.insta'] {
+    color: blueviolet;
+    text-decoration: wavy;
+    text-transform: uppercase;
+}
+/*que termine con...*/
+a[href$='er.com/'] {
+    color: rgb(155, 189, 32);
+    background-color: black;
+    text-transform: uppercase;
+}
+
+
+
+p{ /*este selector no lo toma porque está fuera del <div> a esto se le llama "especifidad"*/
+    color: blabla;
+}

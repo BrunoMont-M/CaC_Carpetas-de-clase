@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--lo ve el browser-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Semántico</title>
+    <!--2 forma-->
+    <style>
+        /*modifica el html*/
+
+        /*primer regla para la etiqueta <a>*/
+
+        /*selector de etiqueta*/
+        a {
+            color:rgb(246, 250, 9);
+        }
+    </style>
+
+    <!--3 forma-->
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+<body>
+    <!--header-->
+    <!--1 forma de modificar html con css-->
+    <header style="border: 1px solid black;text-align: center;">
+        <h1 style="color:aqua;">Título de la página</h1>
+        <h2>Subtítulo de la página</h2>
+    </header>
+
+
+    <!--barra de navegación-->
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="tablas.html">Tablas</a>
+            </li>
+            <li>
+                <a style="color:rgb(192, 18, 178);" href="alumno.html">Link3</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!--contenido principal-->
+    <main>
+        <section>
+            <h3 id="eq">Equipos</h3>
+            <p>Bla bla bla...</p>
+        </section>
+    </main>
+
+    <!--publicidad-->
+
+    <aside>
+        <h3>Venta de autos</h3>
+        <img src="./">
+    </aside>
+
+    <!--información independiente-->
+    <article>
+        <p class="textoVerde">Más bla bla bla...</p>
+    </article>
+
+    <!--cierre de página-->
+    <footer>
+        <h5>Contacto</h5>
+        <form action="contacto.html">
+            <label>Mensaje</label>
+            <textarea>
+
+            </textarea>
+            <button type="submit">
+                Enviar
+            </button>
+        </form>
+        <h5>Mapa de sitio</h5>
+        <ul>
+            <li>
+                Home
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>

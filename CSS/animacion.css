@@ -1,0 +1,40 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cuadrado {
+    background-color: darkslateblue;
+    width: 50px;
+    height: 50px;
+
+    animation-name: miAnimacion;
+    animation-duration: 4s;
+    position: relative; /*relativo al root (o al que lo contiene)*/
+}
+/*@keyframes --> para armar animaciones*/
+@keyframes miAnimacion {
+    25% {
+        background-color: aqua;
+        left: 300px;
+    }
+    50% {
+        background-color: black;
+        width: 100px;
+        height: 100px;
+        bottom: 300px; /*una vez que ya tengo el positioon: relative; ya puedo posicionar mi animacion en cualquier parte*/
+        left: 300px;
+    }
+    75% {
+        background: url(./logo_2021_L.svg);
+        background-size: contain;
+        right: 30px;
+        bottom: 30px;
+    }
+    100% {
+        top: 50vh;
+        left: 50vw;
+    }
+}

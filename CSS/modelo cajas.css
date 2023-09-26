@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+}
+/*
+margin --> margen hacia afuera de la caja
+padding --> margen hacia dentro de la caja
+*/
+.divContainer {
+    background: #84b6f4;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    /*margin-top: 5px;*/
+    /*margin-left: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;*/
+    /*margin: 5px;*/
+    margin: 0 auto;
+    width: 400px;
+}
+.divItem{
+    text-align: center;
+    background: #fdfd96;
+    width: 100px;
+    margin-bottom: 10px;
+    padding: 5px;
+    /*border-style: solid;
+    border-width: 1px;
+    border-color: red;*/
+    box-sizing: border-box;/*border-box*/
+    margin-top: 2px;
+    /*border-box= width - padding - border*/
+    display: inline-block;
+    text-align: center;
+}
+.caja1{
+    background: #77dd77;
+    /*width: 33%;*/
+}
+.caja2{
+    background: #ff6961;
+    /*width: 33%;*/
+}
+/*pseudclases*/
+p:first-child{
+    color: #ffda9e;
+}
+p:last-child{
+    color: #c5c6c8;
+}
+.textos p:nth-child(3) {
+    color:blue;
+}*/
+/*nth-child(indice)*/
+/*
+.textos p:nth-child(3n + 1) {
+    color:blue;
+}
+*/
+
+/*pintar los pares*/
+.textos p:nth-child(even) {
+    color: red;
+}
+/*pintamos los impares*/
+.textos p:nth-child(odd) {
+    color: blue;
+}
+a:link{
+    color: aqua;
+    cursor: pointer;
+    text-decoration: solid;
+}
+a:active{
+    color: chocolate;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    font-size: x-large;
+    color: crimson;
+}

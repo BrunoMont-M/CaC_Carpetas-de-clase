@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alumnos</title>
+</head>
+<body>
+<fieldset>
+    <legend>Datos del alumno</legend>
+    <form>
+        <label for="Nombre">Nombre</label>
+        <input type="text" 
+                id="Nombre" 
+                name="Nombre">
+            <br>
+        <laber for="Apellido">Apellido</laber>
+        <input type="text" 
+                id="Apellido" 
+                name="Apellido">
+            <br><!--type: tipo de input / id: linkea el tipo de dato-->
+        <label for="DNI">DNI</label>
+        <input type="text" 
+                id="DNI" 
+                name="DNI" 
+                maxlength="10">
+            <br><!--maxlength: indica el máximo de caracteres que se pueden colocar en ese input-->
+        <label for="curso">Curso:</label>
+        <!--combo box-->
+        <select id="curso" name="curso">
+            <option>PHP</option>
+            <option>NodeJs</option>
+            <option>Java</option>
+            <option>JavaScript</option>
+            <option selected>Ninguno</option>
+        </select>
+            <br>
+        <label for="Email">Email</label>
+        <input type="Email" 
+                id="Email"
+                name="Email">
+        <!--radio button-->
+        <br>
+        <label>Seleccione su turno:</label><br>
+        <label for="maniana">Mañana</label>
+        <input type="radio" 
+                id="maniana" 
+                name="turno" 
+                value="maniana"><br><!--el value sirve para que se guarden los valores que se seleccionan-->
+
+        <label for="tarde">Tarde</label>
+        <input type="radio" 
+                id="tarde" 
+                name="turno" 
+                value="tarde"><br>
+
+        <label for="noche">Noche</label>
+        <input type="radio" 
+                id="noche" 
+                name="turno" 
+                value="noche"><br>
+        <button>Aceptar</button>
+        <button>Rechazar</button>
+    </form>
+</fieldset><!--genera el recuadro del texto-->
+    <a href="tablas.html">Volver atrás</a>
+</body>
+</html>

@@ -1,0 +1,39 @@
+
+
+.mainHeader {
+    background-color: #006d77;
+}
+.mainHeader_img {
+    width: 20vw;
+    border-radius: 50%;
+}
+.mainHeader_title {
+    display: inline-block;
+    color: #edf6f9;
+}
+.mainCV {
+    background-color: #83c5be;
+    width: 80vw;
+    margin: 0 auto;
+}
+.mainCV_info {
+    color: #edf6f9;
+    font-style: oblique;
+}
+
+
+.mainCV_info_title {
+    color: #edf6f9;
+    text-transform: uppercase;
+    font-size: x-large;
+}
+.mainCV_info_span {
+    text-decoration: underline;
+}
+.mainCV_footer {
+    text-align: center;
+    background-color: #3d405b;
+    font-size: 1.5rem;
+    line-height: 5vw;
+    text-transform: capitalize;
+}

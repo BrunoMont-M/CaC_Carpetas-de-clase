@@ -1,0 +1,47 @@
+:root {
+    /*valores que se toman por defecto para toda la página*/
+    font-size: 2em;
+    color: aquamarine;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.mainConteiner {
+    text-align: center;
+    /*color: rgb(79, 100, 4);*/
+   /* font-size: 1em; /*em=16px --> 3em=3*16px=48px*/
+    /*Otra forma de marcar medidas es con el "rem"
+    3rem --> la funcion es apuntar al root, es decir va a tomar
+    los datos que tiene el root, sin importar en que "caja" esté*/
+}
+
+.left-side {
+    background: rgb(184, 50, 236);
+
+}
+
+.right-side{
+    background: rgb(41, 38, 41);
+}
+
+.inlineBlock {
+    display: inline-block;
+}
+
+.w50 {
+    width: 48%;
+}
+
+.mainHeader{
+    color: rgba(59, 226, 231, 0.774);
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 75%;
+    background: black;
+}
+
+.mainFooter{
+    background: lightcoral;
+    color: black;
+    text-transform: capitalize;
+    text-align: center;
+}
